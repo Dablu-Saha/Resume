@@ -1,0 +1,138 @@
+
+body {
+    /* margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px; */
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1{
+    /* 100%=16px=>90px=(90/60)*100%=562.5% */
+    /* %tage is used to make it dynamic */
+    /* also unit "em" can be used and 1em=16px and its also dynamic
+    but if its parent have some dynamic font size it'll addup*/
+    /* To avoid the adding up of parents dynamic font size we can use "rem" */
+    font-size: 5.625rem;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+h2,h3{
+  font-family: 'Montserrat', sans-serif;
+
+}
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+}
+a,h3{
+  color: #11999E;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  margin :10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr {
+ /* background-color: white; */
+ border-style: dotted none none;
+ border-color: #EAF6F6;
+ border-width: 5px;
+ width: 4%;
+ margin: 100px auto;
+}
+.top-container{
+  background-color: #EAF6F6 ;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  color: #11999E;
+  background-color:#66BFBF ;
+  padding: 20px 0 20px;
+
+}
+.footer{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-top: 10px;
+}
+.dp{
+  height: 200px;
+}
+.topc{
+  position: relative;
+  padding-top: 100px;
+}
+.botcc{
+  position: absolute;
+  top: 300px;
+  right: 850px;
+}
+.topcc{
+  position: absolute;
+  top: 10px;
+  left:850px;
+}
+.cpp{
+  /* clear: is used as antifloat */
+  float: left;
+  height: 150px;
+  margin-right: 30px;
+}
+.py{
+  float: right;
+  height: 150px;
+  margin-left: 30px;
+}
+.sub{
+  font-size: 2.5rem;
+  margin-top: 0px;
+  color: #66BFBF;
+}
+.skill-row{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 125px;
+  text-align: left;
+}
+
+.intro{
+  margin-bottom: 60px;
+}
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fcfcfc;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
